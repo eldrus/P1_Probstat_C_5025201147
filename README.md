@@ -12,6 +12,7 @@ sebelum keberhasilan pertama ketika p = 0,20 dari populasi menghadiri acara vaks
 ```
 mencari peluang dengan menggunakan fungsi dgeom dengan 3 kejadian. dimana x=3 orang, sebelum kejadian pertama dan peluang p=0.20.
 hasil :
+
 ![1.a](https://github.com/eldrus/P1_Probstat_C_5025201147/issues/1#issue-1199033757)
 
 b. mean Distribusi Geometrik dengan 10000 data random , prob = 0,20 dimana distribusi
@@ -119,7 +120,22 @@ variance= 2 * v
 mean
 variance
 ```
- hasil :
+hasil :
+
+## soal 5
+Diketahui bilangan acak (random variable) berdistribusi exponential (λ = 3). Tentukan
+
+a. Fungsi Probabilitas dari Distribusi Exponensial
+```
+set.seed(1)
+probability = dexp(10, rate = lambda)
+probability
+```
+gunakan set seed untuk mengenerate random number
+mencari probabilitas distribusi eksponensial menggunakan dexp.
+
+hasil :
+
  
 
 
